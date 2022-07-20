@@ -1,0 +1,115 @@
+#navbar {
+    width: 95%;
+    height: 120px;
+    margin: auto;
+    border: 1px solid red;
+    display: grid;
+    grid-template-columns: 100px auto 150px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#menu {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    font-size: 20px;
+    border: 1px solid red;
+    font-weight: bold;
+}
+
+
+#featin {
+   
+    
+   
+    display: none;
+    border: 1px solid red;
+    
+}
+
+#feat:hover>#featin{
+    width: 1000px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    position: fixed;
+    top: 80px;
+    left: 200px;
+}
+
+#feat>#featin>div{
+    border: 1px solid red;
+}
+#cookin{
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    display: none;
+    border: 1px solid red;
+}
+
+#cook:hover>#cookin{
+    display: block;
+}
+
+.featinin{
+    font-size: 16px;
+    color: teal;
+}
+
+.featinin>img{
+    width: 100%;
+}
+ 
+#artin{
+    display: none;
+}
+
+#art:hover>#artin{
+    width: 1020px;
+    height: auto;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 100%;
+    position: fixed;
+    top: 80px;
+    left: 200px;
+    gap: 20px;
+    border: 1px solid red;
+    
+
+}
+
+#artinS{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,50%);
+    gap: 30px;
+    padding: 10px;
+
+    
+}
+
+
+h3~p{
+    font-size: 16px;
+    color: teal;
+}
+
+
+
+#view{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    
+}
+
+#image>img{
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+}
