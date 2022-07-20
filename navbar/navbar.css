@@ -4,9 +4,12 @@
     margin: auto;
     border: 1px solid red;
     display: grid;
-    grid-template-columns: 100px auto 150px;
+    grid-template-columns: 100px auto 250px;
     justify-content: space-between;
     align-items: center;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    position: sticky;
 }
 
 #menu {
@@ -14,7 +17,7 @@
     justify-content: space-between;
     gap: 30px;
     font-size: 20px;
-    border: 1px solid red;
+    
     font-weight: bold;
 }
 
@@ -24,7 +27,7 @@
     
    
     display: none;
-    border: 1px solid red;
+    
     
 }
 
@@ -36,17 +39,20 @@
     position: fixed;
     top: 80px;
     left: 200px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 10px;
+    border-radius: 10px ;
+
 }
 
-#feat>#featin>div{
-    border: 1px solid red;
-}
+
 #cookin{
     width: 100px;
     height: 100px;
     position: fixed;
     display: none;
-    border: 1px solid red;
+    
 }
 
 #cook:hover>#cookin{
@@ -60,6 +66,7 @@
 
 .featinin>img{
     width: 100%;
+    border-radius: 5px;
 }
  
 #artin{
@@ -68,7 +75,7 @@
 
 #art:hover>#artin{
     width: 1020px;
-    height: auto;
+    height: 500px;
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-template-rows: 100%;
@@ -76,7 +83,11 @@
     top: 80px;
     left: 200px;
     gap: 20px;
-    border: 1px solid red;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 10px;
+    border-radius: 10px ;
+    padding-bottom: 50px;
     
 
 }
@@ -106,10 +117,91 @@ h3~p{
     justify-content: space-between;
     margin-top: 20px;
     
+    
 }
 
 #image>img{
     display: block;
     margin: auto;
     margin-top: 20px;
+    border-radius: 10px;
+   
+}
+
+
+#auth{
+   
+    display: grid;
+     grid-template-columns: repeat(2,1fr);
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: -30px;
+    align-items: center;
+
+}
+
+#join{
+    display: flex;
+    height: 50px;
+    width: auto;
+    /* border: 1px solid red; */
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px ;
+    background-color: #1bc98e;
+    color: white;
+}
+
+#join:hover{
+    color: red;
+    cursor: pointer;
+}
+
+#menu>div:hover{
+    color:  #1bc98e;
+    cursor: pointer;
+}
+
+#carb:hover{
+    
+    cursor: pointer;
+}
+
+#auth>div:nth-child(1):hover{
+    cursor: pointer;
+    color:  #1bc98e;
+
+}
+
+.featinin:hover{
+   cursor: pointer;
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+   border-radius: 10px;
+   padding: 10px;
+   color: white;
+   background-color: #1bc98e;
+   
+}
+
+#artinS>div:hover{
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+    background-color: #1bc98e;
+}
+
+#image:hover{
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+    background-color: #1bc98e;
+}
+
+#image{
+    height: 98%;
 }
