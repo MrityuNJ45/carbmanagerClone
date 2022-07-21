@@ -1,0 +1,123 @@
+#mang {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 60%;
+    margin: auto;
+    gap: 80px;
+}
+
+#mangtext {
+    text-align: center;
+    padding-top: 50px;
+}
+
+#mangimg>img {
+    height: 500px;
+}
+
+.btn {
+    display: inline;
+    height: 50px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+#ama {
+    width: 100%;
+    margin-top: 30px;
+}
+
+#ulti{
+    margin: auto;
+    width: 40%;
+    text-align: center;
+    margin-top: 60px;
+}
+
+#easy{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 60%;
+    margin: auto;
+    gap: 80px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+
+#easyimg{
+   height: 400px;
+   border-radius: 10px;
+   border-top-left-radius: 80px;
+}
+
+#easytext{
+    text-align: center;
+    padding-top: 50px;
+}
+
+#healthy{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 60%;
+    margin: auto;
+    gap: 80px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+
+#healthyimg{
+    height: 400px;
+    border-radius: 10px;
+    border-bottom-right-radius: 80px;
+}
+
+#healthytext{
+    text-align: center;
+    padding-top: 50px;
+}
+
+#family{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 60%;
+    margin: auto;
+    gap: 80px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+
+#familyimg{
+    height: 400px;
+    border-radius: 10px;
+    border-top-right-radius: 80px;
+}
+
+#familytext{
+    text-align: center;
+    padding-top: 50px;
+}
+
+#yum{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 60%;
+    margin: auto;
+    gap: 80px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+
+#yumimg{
+    height: 400px;
+    border-radius: 10px;
+    border-bottom-left-radius: 80px;
+}
+
+#yumtext{
+    text-align: center;
+    padding-top: 50px;
+}
