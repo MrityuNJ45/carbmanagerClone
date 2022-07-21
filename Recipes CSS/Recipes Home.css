@@ -166,7 +166,33 @@ form+h3{
 
 
 
-header+h1{
+#external{
+  width:80%;
+  margin-left:10%;
+  margin-right:5%;
+  margin-top:30px;
+  border-bottom:1px solid #6f737a;
+  padding-bottom:15px;
+}
+#external>button{
+  margin-right:20px;
+  border:0px;
+  background-color:white;
+  color:#6f737a;;
+}
+#external a{
+  color:#6f737a;
+  text-decoration:none;
+}
+#external>button:hover{
+  color:green;
+}
+
+
+
+
+
+#external+h1{
     margin-top:100px;
     margin-bottom:-150px;
     font-size:55px;
