@@ -3,25 +3,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign Up</title>
-    <link rel="stylesheet" href="signupstyles/signup.css">
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css">
 </head>
 <body>
     <form id="form">
-    <img src="https://tse1.mm.bing.net/th?id=OIP.j32fNwzxjLXAqC-SQWRF2wHaHa&pid=Api&P=0" alt="hello">
-    <h2>Let's set up your account</h2>
-    <input type="text" id="name" placeholder="First Name (optional)">
+    <img id="image" onclick="goBack()" src="https://tse1.mm.bing.net/th?id=OIP.j32fNwzxjLXAqC-SQWRF2wHaHa&pid=Api&P=0" alt="hello">
+    <h1>Welcome Back</h1>
+    <p id="pass">Please sign in below to get started</p>
     <input type="text" id="email" placeholder="Email Address">
     <input type="text" id="password" placeholder="Password">
-    <p id="pass">Enter a secure password</p>
-    <div id="border">
-</div>
-    <p>By Continuing to use Carb Manager, you agree to our <a href="/">Terms of Service</a> and <a href="/">Privacy Policy</a></p>
+    
     <button id="btn">Create My Account</button>
     <p>OR</p>
     <button id="btn1">Continue With Apple</button>
     <button id="btn2">Continue With Google</button>
+    <p>Don't have an account? <a href="/signuppage/firstpage.html">Sign up here</a></p>
+    <p>This site is protected by hCaptcha and their <a href="/">Privacy policy</a> and <a href="/">terms</a> apply</p>
 </form>
 
 </body>
 </html>
+<script src="login.js"></script>
