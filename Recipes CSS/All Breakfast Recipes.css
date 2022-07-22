@@ -1,0 +1,566 @@
+header{
+    background-image: url('https://images.prismic.io/cm-website/f2f6cbc4-38c0-4c97-9a8a-a440f496681f_Breakfasts.png?auto=compress%2Cformat&w=0.5&auto=format&fit=max');
+    background-color: #cccccc;
+    background-blend-mode: darken;
+    background-color: rgba(0, 0, 0, 0.5);
+   height:390px;
+    
+}
+#nav1{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+#nav1>img{
+    width: 230px;
+    height: 65px;
+    margin-left:00px;
+    margin-right:00px;
+}
+#nav1 i{
+    font-size: 30px;
+    color: black;
+    
+   
+}
+#nav1 i:nth-child(2)
+{
+    font-size: 23px;
+    color: black;
+    background-color: white;
+    padding: 2px;
+    margin-left:-000px;
+}
+#menu a{
+    font-size: 12px;
+    color: black;
+    text-decoration: none;
+    margin-left:770px;
+}
+#menu p{
+    font-size: 20px;
+    font-weight: bold;
+}
+#nav1 input{
+    width: 380px;
+    height: 30px;
+    margin-left:-900px;
+}
+#nav2 form{
+    width: 60px;
+    display: flex;
+}
+#location{
+    width:130px;
+}
+#location a{
+    font-size: 22px;
+    text-decoration: none;
+    color: white;
+    margin-left:150px;
+}
+#location i{
+    font-size: 12px;
+    text-decoration: none;
+    color: black;
+    margin-left:70px;
+}
+#cart button{
+    font-size: 20px;
+    color: black;
+    padding:10px 8px 10px 8px;
+    text-decoration: none;
+    border-radius:25px;
+    color:white;
+    background-color: rgb(44, 184, 44);
+}
+#cart a:hover{
+    text-decoration: underline;
+}
+.hr{
+    width: 100%;
+    height: 1px;
+    
+}
+#nav2{
+
+    display: flex;
+   justify-content: space-between;
+    border-bottom:3px solid grey;
+    
+}
+#shop{
+    width: 100%;
+    display: flex;
+    color:white;
+    justify-content: space-around;
+    gap:30px;
+
+}
+#order{
+    width: 43%;
+    display: flex;
+    justify-content: space-around;
+}
+#shop a{
+    color: black;
+    text-decoration:bold;
+    color:white;
+    font-size:22px;
+}
+#shop a:hover{
+    text-decoration: underline;
+}
+#order a{
+    color: black;
+    text-decoration: none;
+}
+#nav2ab{
+    width:65%;
+    margin:auto;
+    text-align:center;
+    text-align:left;
+    margin-top:80px;
+}
+#nav2ab h1{
+    font-size:80px;
+    color:white;
+}
+
+
+
+
+
+#external{
+  width:80%;
+  margin-left:10%;
+  margin-right:5%;
+  margin-top:30px;
+  border-bottom:1px solid #6f737a;
+  padding-bottom:15px;
+  }
+  #external>button{
+    margin-right:20px;
+    border:0px;
+    background-color:white;
+    color:#6f737a;;
+  }
+  #external a{
+    color:#6f737a;
+    text-decoration:none;
+  }
+  #external>button:hover{
+    color:green;
+  }
+
+
+
+
+
+  #external+h1{
+    margin-top:100px;
+    margin-bottom:-150px;
+    font-size:55px;
+    margin-left:60px;
+}
+#bonus-deals{
+    margin:auto;
+    margin-top:200px;
+    width:92%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(4,500px);
+   }
+   #bonus-deals>div{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+     width:80%;
+     height:470px;
+   }
+   #bonus-deals img{
+     width:100%;
+     height: 300px;
+     margin-right:129px;
+     margin-bottom:5px;
+   }
+   #bonus-deals button{
+    width: 119px;
+    height:30px;
+    background-color:white;
+    border:none;
+    color:#206a00;
+   text-decoration:bold;
+    margin-left:170px;
+    margin-top:-18px;
+   }
+   #bonus-deals button:hover{
+     background-color:rgb(195, 195, 64);
+   }
+   #namee{
+    margin-left:0px;
+    margin-top:10px;
+    text-align:left;
+    font-size:28px;
+  }
+  #pricee{
+    font-size:25px;
+    width:235px;
+    color: #f98d29;
+    margin-left:10px;
+    margin-top:30px;
+   border-top:2px solid black;
+  }
+  #saveprice{
+    background-color: white;
+    width: 88px;
+    margin-left:160px;
+   margin-top:-90px; 
+ 
+  }
+  #wasprice{
+    text-align:right;
+    margin-top:-35px;
+    margin-right:20px;
+  }
+  #bonous-deal{
+    border: 1px solid black;
+    width:20%;
+    margin:auto;
+  }
+  #bonous-deal img{
+    width:100%;
+  }
+  #bonous-deal p{
+    background-color: white;
+    width: 88px;
+    margin-left:200px;
+   margin-top:-80px; 
+   
+  }
+  #bonous-deal button{
+    width: 119px;
+    height:30px;
+    background-color:white;
+    border:none;
+    color:#206a00;
+   text-decoration:bold;
+    margin-left:170px;
+    margin-top:1px;
+
+  }
+  #bonous-deal h2{
+    font-size:25px;
+    width:275px;
+    color: #f98d29;
+    margin-left:10px;
+    margin-top:30px;
+   border-top:2px solid black;
+  }
+
+
+
+
+
+  #bonus-deals+h1{
+    margin-top:100px;
+    margin-bottom:-150px;
+    font-size:55px;
+    margin-left:60px;
+    width:70%;
+}
+#bonus-dealss{
+    margin:auto;
+    margin-top:200px;
+    width:92%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(4,500px);
+   }
+   #bonus-dealss>div{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+     width:80%;
+     height:470px;
+   }
+   #bonus-dealss img{
+     width:100%;
+     height: 300px;
+     margin-right:129px;
+     margin-bottom:5px;
+   }
+   #bonus-dealss button{
+     width: 119px;
+     height:30px;
+     background-color:white;
+     color:#206a00;
+     border:none;
+    text-decoration:bold;
+     margin-left:160px;
+     margin-top:-30px;
+   }
+   #bonus-dealss button:hover{
+     background-color:rgb(195, 195, 64);
+   }
+   #namee{
+    margin-left:0px;
+    margin-top:10px;
+    text-align:left;
+    font-size:28px;
+   
+  }
+  #pricee{
+    font-size:25px;
+    width:235px;
+    color: #f98d29;
+    margin-left:10px;
+    margin-top:30px;
+   border-top:2px solid black;
+  }
+  #saveprice{
+    background-color: white;
+    width: 88px;
+    margin-left:180px;
+   margin-top:-90px; 
+ 
+  }
+  #wasprice{
+    margin-left:10px;
+  }
+
+
+  #bonous-deal{
+    border: 1px solid black;
+    width:20%;
+    margin:auto;
+  }
+  #bonous-deal img{
+    width:100%;
+  }
+  #bonous-deal p{
+    background-color: #48ee01;
+    width: 88px;
+    margin-left:200px;
+   margin-top:-80px; 
+   
+  }
+  #bonous-deal button{
+    width: 119px;
+    height:30px;
+    background-color:white;
+    border:none;
+    color:#206a00;
+   text-decoration:bold;
+    margin-left:170px;
+    margin-top:1px;
+
+  }
+  #bonous-deal h2{
+    font-size:25px;
+    width:275px;
+    color: #f98d29;
+    margin-left:10px;
+    margin-top:30px;
+   border-top:2px solid black;
+  }
+
+
+
+
+
+  #bonus-dealss+h1{
+    margin-top:100px;
+    margin-bottom:-150px;
+    font-size:55px;
+    margin-left:60px;
+    width:70%;
+}
+#bonus-dealsss{
+    margin:auto;
+    margin-top:200px;
+    width:92%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(3,500px);
+   }
+   #bonus-dealsss>div{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+     width:80%;
+     height:460px;
+   }
+   #bonus-dealsss img{
+     width:100%;
+     height: 300px;
+     margin-right:129px;
+     margin-bottom:5px;
+   }
+   #bonus-dealsss button{
+    width: 119px;
+     height:30px;
+     background-color:white;
+     color:#206a00;
+     border:none;
+    text-decoration:bold;
+     margin-left:160px;
+     margin-top:-30px;
+   }
+   #bonus-dealsss button:hover{
+     background-color:rgb(195, 195, 64);
+   }
+   #namee{
+    margin-left:0px;
+    margin-top:10px;
+    text-align:left;
+    font-size:28px;
+   
+  }
+  #pricee{
+    font-size:25px;
+    width:235px;
+    color: #f98d29;
+    margin-left:10px;
+    margin-top:30px;
+   border-top:2px solid black;
+  }
+  #saveprice{
+    background-color: white;
+    width: 88px;
+    margin-left:180px;
+   margin-top:-90px; 
+ 
+  }
+  #wasprice{
+    margin-left:10px;
+  }
+
+
+  #bonous-deal{
+    border: 1px solid black;
+    width:20%;
+    margin:auto;
+  }
+  #bonous-deal img{
+    width:100%;
+  }
+  #bonous-deal p{
+    background-color: #48ee01;
+    width: 88px;
+    margin-left:200px;
+   margin-top:-80px; 
+   
+  }
+  #bonous-deal button{
+    width: 119px;
+    height:30px;
+    background-color:white;
+    border:none;
+    color:#206a00;
+   text-decoration:bold;
+    margin-left:170px;
+    margin-top:1px;
+
+  }
+  #bonous-deal h2{
+    font-size:25px;
+    width:275px;
+    color: #f98d29;
+    margin-left:10px;
+    margin-top:30px;
+   border-top:2px solid black;
+  }
+
+
+
+
+
+  #ending1{
+    height:400px;
+    width:100%;
+    border:2px solid black;
+    margin-top:80px;
+    background: radial-gradient(ellipse at center,#2dd29a 0,#1ca677 100%);
+  }
+  #ending1 h1{
+    text-align:center;
+    margin-top:100px;
+    color:white;
+  }
+  #ending1 p{
+    text-align:center;
+    margin-top:10px;
+    color:white;
+  }
+  #ending1>button{
+    width:15%;
+    height:50px;
+    margin-top:50px;
+   margin-left:42.5%;
+   margin-right:42.5%;
+   border-radius:20px;
+   font-size:17px;
+   color:white;
+   border:0px;
+   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+   background-color: red;
+  }
+  #ending1 a{
+    color:white;
+    text-decoration:none
+  }
+
+#ending2{
+  width:100%;
+}
+#ending2>img{
+  margin-top:80px;
+  margin-left:41%;
+  margin-right:41%;
+  width:18%;
+}
+#ending2>#internal{
+  width:75%;
+  margin-left:15%;
+  margin-right:10%;
+  margin-top:30px;
+}
+#ending2>#internal>button{
+  margin-right:20px;
+  border:0px;
+  background-color:white;
+}
+#ending2>#internal>button:hover{
+  color:green;
+}
+
+#ending2>#internals{
+  width:75%;
+  margin-left:20%;
+  margin-right:5%;
+  margin-top:-2px;
+  margin-bottom:20px;
+}
+#ending2>#internals>button{
+  margin-right:20px;
+  border:0px;
+  background-color:white;
+}
+#ending2>#internals>button:hover{
+  color:green;
+}
+
+.box85{
+  width:19%;
+  height:85px;
+  margin:auto;
+  display:flex;
+  color:black;
+  border-top:1px solid black;
+  padding-top:20px;
+  }
+  .box85+p{
+   text-align:center;
+  }
+  .box85+p+p{
+    margin:auto;
+    width:60%;
+    text-align:center;
+  }
+
+   
