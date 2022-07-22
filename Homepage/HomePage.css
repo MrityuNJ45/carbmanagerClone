@@ -1,0 +1,130 @@
+html, body{
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+#banner{
+    border: 1px solid black;
+    width: 100%;
+    height: 750px;
+    border-radius: 0 0 0 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(38,192,140);
+}
+#banner_img{
+    width: 312px;
+    height: 676px;
+    margin-top: 120px;
+    margin-right: 150px;
+
+}
+.title{
+    font-size: 65px;
+    font-family: sans-serif;
+    font-weight: 800;
+    color: white;
+    line-height: 75px;
+}
+.title_a{
+    font-size: 32px;
+    font-family: sans-serif;
+    font-weight: 700;
+    color: white;
+    line-height: 6px;
+}
+.title_b{
+    font-size: 24px;
+    font-family: sans-serif;
+    font-weight: 500;
+    color: white;
+    line-height: 28px;
+}
+#banner_a{
+    margin-left: 100px;
+}
+#search{
+    width: 520px;
+    height: 51.69px;
+    border-radius: 25px;
+    display: flex;
+    overflow-x: hidden;
+    background-color: white;
+}
+#search_inp{
+    width: 320px;
+    height: 50px;
+    border-radius: 25px 0px 0px 25px;
+    border: 0;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: sans-serif;
+    padding-left: 40px;
+}
+#search_btn{
+    width: 200px;
+    height: 50px;
+    border-radius: 25px;
+    border: 0;
+    background-color: #f94642;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: sans-serif;
+    color: white;
+}
+#search_btn:hover{
+    cursor: pointer;
+    background-color: red;
+}
+#mobapp{
+    margin-top: 45px;
+}
+#PlayStore, #AppStore{
+    width: 146px;
+    height: 46px;
+}
+#AppStore{
+    margin-left: 25px;
+}
+#PlayStore:hover{
+    cursor: pointer;
+}
+#AppStore{
+    cursor: pointer;
+}
+#banner_foot{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 1110px;
+    height: 56px;
+    margin: auto;
+    margin-top: 35px;
+}
+#bf1{
+    width: 73px;
+    height: 43px;
+}
+#bf2{
+    width: 150px;
+    height: 56px;
+}
+#bf3{
+    width: 141px;
+    height: 24px;
+}
+#bf4{
+    width: 115px;
+    height: 56px;
+}
+#bf5{
+    width: 144px;
+    height: 24px;
+}
+#bf6{
+    width: 124px;
+    height: 27px;
+}
