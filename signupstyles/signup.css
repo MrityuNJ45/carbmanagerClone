@@ -82,6 +82,7 @@ form>#password+#pass{
    padding-left: 145px;
 }
 #form>#btn{
+    cursor: pointer;
     border-radius: 40px;
     color:white;
     font-weight: bold;
