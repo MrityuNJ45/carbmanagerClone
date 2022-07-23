@@ -36,6 +36,7 @@ body{
     margin-left: 38px;
 }
 #btn1{
+    cursor: pointer; 
     border-radius: 40px;
     color:white;
     font-weight: bold;
@@ -47,6 +48,7 @@ body{
     padding: 10px 10px;
 }
 #btn2{
+    cursor: pointer;
     border-radius: 40px;
     color:white;
     font-weight: bold;
@@ -97,6 +99,7 @@ form>#password+#pass{
  
 }
 #form>#btn{
+    cursor: pointer;
     border: 1px solid white;
     border-radius: 40px;
     color:white;

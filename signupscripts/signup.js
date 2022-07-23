@@ -20,7 +20,7 @@ class userObj{
             alert("You are successfully signup"); 
             array.push(p);
            localStorage.setItem("user-data",JSON.stringify(array));
-           
+           window.location.href="/login.html"
         } else {
             alert("You are already signup"); 
         }
