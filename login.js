@@ -17,7 +17,7 @@ class userObj{
         
         if(isvalidate){
             alert("You are successfully login"); 
-           
+            window.location.href="/Homepage/HomePage.html";
         } else {
             alert("Your given credential is wrong"); 
         }
