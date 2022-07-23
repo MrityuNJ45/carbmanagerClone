@@ -1,0 +1,95 @@
+body{
+    background-color: #ebeff4;
+}
+
+#form{
+    background-color: white;
+    border-radius: 20px;
+    width: 44%;
+    margin: auto;
+    margin-top: 30px;
+    border: 1px solid white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+#form>input{
+    border: 1px solid #f6f8fb;
+    background-color: #f6f8fb;
+    width: 85%;
+    margin: 10px 35px;
+    padding: 18px 18px;
+    font-size: 13px;
+}
+#form>img{
+    height: 50px;
+    width: 10%;
+   padding-top: 20px;
+   padding-left: 230px;
+   
+}
+#border{
+    display: flex;
+    justify-content: space-around;
+    height: 0px;
+    width: 83%;
+    border: 1px solid #e3e3e3;
+    margin-left: 38px;
+}
+#btn1{
+    border-radius: 40px;
+    color:white;
+    font-weight: bold;
+    font-size: 15px;
+    background-color: black;
+    width: 88%;
+    margin: 0px 30px;
+    margin-top: -15px;
+    padding: 10px 10px;
+}
+#btn2{
+    border-radius: 40px;
+    color:white;
+    font-weight: bold;
+    font-size: 15px;
+    background-color: #4285f4;
+    width: 88%;
+    margin: 10px 30px;
+    padding: 10px 10px;
+}
+#form>#btn+p{
+    padding-top: 0px;
+    padding-left: 230px;
+    font-weight: bold;
+}
+#form>p{
+    color: #818b94;
+    width: 88%;
+    margin: 20px 20px;
+    padding: 10px 15px;
+   font-size: 13px;
+}
+#form>p>a{
+    color: #1bc98e;
+    text-decoration: none;
+}
+form>#password+#pass{
+   padding-top: -20px;
+    padding-left: 20px;
+   font-size: 15px;
+}
+#form>h2{
+    width: 80%;
+  padding-top: 20px;
+   padding-left: 145px;
+}
+#form>#btn{
+    cursor: pointer;
+    border-radius: 40px;
+    color:white;
+    font-weight: bold;
+    font-size: 15px;
+    background-color: #1bc98e;
+    width: 88%;
+    margin: 20px 30px;
+    margin-bottom: -10px;
+    padding: 15px 10px;
+}
