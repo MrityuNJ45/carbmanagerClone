@@ -18,7 +18,7 @@ For the responsiveness and the functionality we have used Javascript.
 
 We have tried to make our website as responsive as possible and have tried to give the UI as close to the original as possible.
 
-We hope you like it.
+We hope you like it.    
 
 Learnings from this project :-
 1. Team collaboration.
@@ -26,3 +26,6 @@ Learnings from this project :-
 3. Collaborative skills.
 4. Good Hang of ES6 classes.
 5. Some new concepts of CSS.
+
+
+You can have a look at our project at :-  "https://storied-nasturtium-0c9726.netlify.app/"
